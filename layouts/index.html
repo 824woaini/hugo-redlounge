@@ -8,6 +8,7 @@
             {{ partial "listtop.html" . }}
 
           <div class="posts">
+            <h1 class="section-title">Posts</h1>
             {{ $Site := .Site }}
             {{ range where .Data.Pages "Section" "posts" }}
             <section  class="post">

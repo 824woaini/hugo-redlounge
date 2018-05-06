@@ -59,6 +59,11 @@ h1 {
 	background: #eee;
 }
 
+/* Page */
+h1.section-title {
+    
+}
+
 /* Layout */
 .pure-img-responsive {
     max-width: 100%;
